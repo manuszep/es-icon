@@ -1,17 +1,26 @@
-/* @font-face {
-     font-family: 'Material Symbols Outlined';
-     font-style: normal;
-     font-weight: 400;
-     src: url(../assets/icons.woff2) format('woff2');
-   }
-*/
-
 :host {
   display: flex;
   font-size: 18px;
 }
 
-span.es-icon.material-symbols-outlined {
+span.es-icon {
+  font-family: 'es-icon';
   vertical-align: -.13em;
   font-size: inherit;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
 }

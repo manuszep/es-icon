@@ -3,5 +3,12 @@
   "dest": "../../dist/es-icon",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": [
+    {
+      "glob": "**/*.{css,otf,ttf}",
+      "input": "src/lib",
+      "output": "/"
+    }
+  ]
 }
