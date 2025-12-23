@@ -15,5 +15,27 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "sideEffects": [
+    "*.css"
+  ],
+  "exports": {
+    "./outlined.css": {
+      "default": "./outlined.css"
+    },
+    "./regular.css": {
+      "default": "./regular.css"
+    },
+    "./round.css": {
+      "default": "./round.css"
+    },
+    "./sharp.css": {
+      "default": "./sharp.css"
+    },
+    "./two-tone.css": {
+      "default": "./two-tone.css"
+    },
+    "./icon.css": {
+      "default": "./icon.css"
+    }
+  }
 }
