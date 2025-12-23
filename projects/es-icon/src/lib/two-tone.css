@@ -2,5 +2,5 @@
   font-family: 'es-icon';
   font-style: normal;
   font-weight: 400;
-  src: url(/es-icon/two-tone.otf) format('opentype');
+  src: url(./two-tone.otf) format('opentype');
 }
