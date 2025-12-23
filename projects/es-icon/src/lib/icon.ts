@@ -9,6 +9,6 @@ import { IIcon } from './type';
   encapsulation: ViewEncapsulation.None
 })
 export class IconComponent {
-  protected name = input.required<IIcon>();
-  protected color = input<string>();
+  public name = input.required<IIcon>();
+  public color = input<string>();
 }
